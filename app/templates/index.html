@@ -1,0 +1,20 @@
+<html>
+<title> {{ title }}</title>
+
+<body>
+  {{ bodystart }}
+  <table border=1>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+  </tr>
+  {% for product in products %}
+    <tr>
+      <td>{{ product.id }}</td>
+      <td>{{ product.name }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+  {{ bodystop }}
+</body>
+</html>
