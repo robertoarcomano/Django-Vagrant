@@ -1,4 +1,4 @@
-START:  Tue Jan 7 17:26:03 GMT 2020
+START:  Wed Jan 8 09:59:34 GMT 2020
 ==> default: Removing domain...
 Bringing machine 'default' up with 'libvirt' provider...
 ==> default: Checking if box 'generic/ubuntu1804' version '2.0.6' is up to date...
@@ -45,37 +45,37 @@ Bringing machine 'default' up with 'libvirt' provider...
 ==> default: Configuring and enabling network interfaces...
 ==> default: Rsyncing folder: /home/berto/Desktop/Django-Vagrant/ => /vagrant
 ==> default: Running provisioner: shell...
-    default: Running: /tmp/vagrant-shell20200107-16272-1m10g7q.sh
-    default: Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
-    default: Hit:2 http://us.archive.ubuntu.com/ubuntu bionic InRelease
-    default: Get:3 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [417 kB]
-    default: Get:4 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
-    default: Get:5 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [605 kB]
-    default: Get:6 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [196 kB]
-    default: Get:7 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [16.8 kB]
-    default: Get:8 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [5,028 B]
-    default: Get:9 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [602 kB]
-    default: Get:10 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [628 kB]
-    default: Get:11 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [210 kB]
-    default: Get:12 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [6,120 B]
-    default: Get:13 http://security.ubuntu.com/ubuntu bionic-security/multiverse i386 Packages [4,288 B]
-    default: Get:14 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [2,600 B]
-    default: Get:15 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
-    default: Get:16 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [828 kB]
-    default: Get:17 http://us.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [628 kB]
-    default: Get:18 http://us.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [290 kB]
-    default: Get:19 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted i386 Packages [9,584 B]
-    default: Get:20 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [25.8 kB]
-    default: Get:21 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [6,964 B]
-    default: Get:22 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [997 kB]
-    default: Get:23 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,035 kB]
-    default: Get:24 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [320 kB]
-    default: Get:25 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse i386 Packages [7,484 B]
-    default: Get:26 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [9,500 B]
-    default: Get:27 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [4,540 B]
-    default: Get:28 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [4,024 B]
-    default: Get:29 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [4,028 B]
-    default: Fetched 7,113 kB in 4s (1,981 kB/s)
+    default: Running: /tmp/vagrant-shell20200108-22371-189zj14.sh
+    default: Hit:1 http://us.archive.ubuntu.com/ubuntu bionic InRelease
+    default: Get:2 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+    default: Get:3 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+    default: Get:4 http://us.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [628 kB]
+    default: Get:5 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [829 kB]
+    default: Get:6 http://us.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [290 kB]
+    default: Get:7 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted i386 Packages [9,584 B]
+    default: Get:8 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [26.0 kB]
+    default: Get:9 http://us.archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [6,976 B]
+    default: Get:10 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,035 kB]
+    default: Get:11 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+    default: Get:12 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [997 kB]
+    default: Get:13 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [320 kB]
+    default: Get:14 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [9,500 B]
+    default: Get:15 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse i386 Packages [7,484 B]
+    default: Get:16 http://us.archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [4,540 B]
+    default: Get:17 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [4,024 B]
+    default: Get:18 http://us.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [4,028 B]
+    default: Get:19 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [605 kB]
+    default: Get:20 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [417 kB]
+    default: Get:21 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [196 kB]
+    default: Get:22 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [16.8 kB]
+    default: Get:23 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [5,028 B]
+    default: Get:24 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [602 kB]
+    default: Get:25 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [628 kB]
+    default: Get:26 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [210 kB]
+    default: Get:27 http://security.ubuntu.com/ubuntu bionic-security/multiverse i386 Packages [4,288 B]
+    default: Get:28 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [6,120 B]
+    default: Get:29 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [2,600 B]
+    default: Fetched 7,114 kB in 4s (1,700 kB/s)
     default: Reading package lists...
     default: Reading package lists...
     default: Building dependency tree...
@@ -114,14 +114,14 @@ Bringing machine 'default' up with 'libvirt' provider...
     default:   libfakeroot libfile-fcntllock-perl libgcc-7-dev libgomp1 libisl19 libitm1
     default:   libjq1 liblsan0 libmpc3 libmpx2 libonig4 libpython3-dev libpython3.6-dev
     default:   libquadmath0 libsqlite0 libssh2-1 libstdc++-7-dev libtsan0 libubsan0
-    default:   linux-libc-dev make manpages-dev mc mc-data python-pip-whl python3-crypto
-    default:   python3-dev python3-distutils python3-keyring python3-keyrings.alt
-    default:   python3-lib2to3 python3-pip python3-secretstorage python3-setuptools
-    default:   python3-wheel python3-xdg python3.6-dev sqlite sqlite3
+    default:   libxml2-utils linux-libc-dev make manpages-dev mc mc-data python-pip-whl
+    default:   python3-crypto python3-dev python3-distutils python3-keyring
+    default:   python3-keyrings.alt python3-lib2to3 python3-pip python3-secretstorage
+    default:   python3-setuptools python3-wheel python3-xdg python3.6-dev sqlite sqlite3
     default: The following packages will be upgraded:
     default:   libpython3.6 libpython3.6-minimal libpython3.6-stdlib libsqlite3-0 python3.6
     default:   python3.6-minimal
-    default: 6 upgraded, 65 newly installed, 0 to remove and 40 not upgraded.
+    default: 6 upgraded, 66 newly installed, 0 to remove and 40 not upgraded.
     default: Need to get 93.6 MB of archives.
     default: After this operation, 256 MB of additional disk space will be used.
     default: Get:1 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3.6 amd64 3.6.9-1~18.04 [1,414 kB]
@@ -179,27 +179,27 @@ Bringing machine 'default' up with 'libvirt' provider...
     default: Get:53 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libpython3-dev amd64 3.6.7-1~18.04 [7,328 B]
     default: Get:54 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libsqlite0 amd64 2.8.17-14fakesync1 [160 kB]
     default: Get:55 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 libssh2-1 amd64 1.8.0-1 [73.2 kB]
-    default: Get:56 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 manpages-dev all 4.15-1 [2,217 kB]
-    default: Get:57 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 mc-data all 3:4.8.19-1 [1,238 kB]
-    default: Get:58 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 mc amd64 3:4.8.19-1 [474 kB]
-    default: Get:59 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python-pip-whl all 9.0.1-2.3~ubuntu1.18.04.1 [1,653 kB]
-    default: Get:60 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-crypto amd64 2.6.1-8ubuntu2 [244 kB]
-    default: Get:61 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3.6-dev amd64 3.6.9-1~18.04 [508 kB]
-    default: Get:62 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-dev amd64 3.6.7-1~18.04 [1,288 B]
-    default: Get:63 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-secretstorage all 2.3.1-2 [12.1 kB]
-    default: Get:64 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-keyring all 10.6.0-1 [26.7 kB]
-    default: Get:65 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-keyrings.alt all 3.0-1 [16.6 kB]
-    default: Get:66 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python3-pip all 9.0.1-2.3~ubuntu1.18.04.1 [114 kB]
-    default: Get:67 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-setuptools all 39.0.1-2 [248 kB]
-    default: Get:68 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-wheel all 0.30.0-0.2 [36.5 kB]
-    default: Get:69 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-xdg all 0.25-4ubuntu1 [31.4 kB]
-    default: Get:70 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 sqlite amd64 2.8.17-14fakesync1 [15.9 kB]
-    default: Get:71 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 sqlite3 amd64 3.22.0-1ubuntu0.2 [754 kB]
+    default: Get:56 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libxml2-utils amd64 2.9.4+dfsg1-6.1ubuntu1.2 [35.8 kB]
+    default: Get:57 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 manpages-dev all 4.15-1 [2,217 kB]
+    default: Get:58 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 mc-data all 3:4.8.19-1 [1,238 kB]
+    default: Get:59 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 mc amd64 3:4.8.19-1 [474 kB]
+    default: Get:60 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python-pip-whl all 9.0.1-2.3~ubuntu1.18.04.1 [1,653 kB]
+    default: Get:61 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-crypto amd64 2.6.1-8ubuntu2 [244 kB]
+    default: Get:62 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3.6-dev amd64 3.6.9-1~18.04 [508 kB]
+    default: Get:63 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-dev amd64 3.6.7-1~18.04 [1,288 B]
+    default: Get:64 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-secretstorage all 2.3.1-2 [12.1 kB]
+    default: Get:65 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-keyring all 10.6.0-1 [26.7 kB]
+    default: Get:66 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-keyrings.alt all 3.0-1 [16.6 kB]
+    default: Get:67 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 python3-pip all 9.0.1-2.3~ubuntu1.18.04.1 [114 kB]
+    default: Get:68 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-setuptools all 39.0.1-2 [248 kB]
+    default: Get:69 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-wheel all 0.30.0-0.2 [36.5 kB]
+    default: Get:70 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 python3-xdg all 0.25-4ubuntu1 [31.4 kB]
+    default: Get:71 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 sqlite amd64 2.8.17-14fakesync1 [15.9 kB]
+    default: Get:72 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 sqlite3 amd64 3.22.0-1ubuntu0.2 [754 kB]
     default: dpkg-preconfigure: unable to re-open stdin: No such file or directory
-    default: Fetched 93.6 MB in 20s (4,615 kB/s)
+    default: Fetched 93.6 MB in 8s (11.3 MB/s)
     default: (Reading database ... 
-    default: (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%
-    default: (Reading database ... 50%(Reading database ... 55%
+    default: (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%
     default: (Reading database ... 60%
     default: (Reading database ... 65%
     default: (Reading database ... 70%
@@ -368,53 +368,56 @@ Bringing machine 'default' up with 'libvirt' provider...
     default: Selecting previously unselected package libssh2-1:amd64.
     default: Preparing to unpack .../54-libssh2-1_1.8.0-1_amd64.deb ...
     default: Unpacking libssh2-1:amd64 (1.8.0-1) ...
+    default: Selecting previously unselected package libxml2-utils.
+    default: Preparing to unpack .../55-libxml2-utils_2.9.4+dfsg1-6.1ubuntu1.2_amd64.deb ...
+    default: Unpacking libxml2-utils (2.9.4+dfsg1-6.1ubuntu1.2) ...
     default: Selecting previously unselected package manpages-dev.
-    default: Preparing to unpack .../55-manpages-dev_4.15-1_all.deb ...
+    default: Preparing to unpack .../56-manpages-dev_4.15-1_all.deb ...
     default: Unpacking manpages-dev (4.15-1) ...
     default: Selecting previously unselected package mc-data.
-    default: Preparing to unpack .../56-mc-data_3%3a4.8.19-1_all.deb ...
+    default: Preparing to unpack .../57-mc-data_3%3a4.8.19-1_all.deb ...
     default: Unpacking mc-data (3:4.8.19-1) ...
     default: Selecting previously unselected package mc.
-    default: Preparing to unpack .../57-mc_3%3a4.8.19-1_amd64.deb ...
+    default: Preparing to unpack .../58-mc_3%3a4.8.19-1_amd64.deb ...
     default: Unpacking mc (3:4.8.19-1) ...
     default: Selecting previously unselected package python-pip-whl.
-    default: Preparing to unpack .../58-python-pip-whl_9.0.1-2.3~ubuntu1.18.04.1_all.deb ...
+    default: Preparing to unpack .../59-python-pip-whl_9.0.1-2.3~ubuntu1.18.04.1_all.deb ...
     default: Unpacking python-pip-whl (9.0.1-2.3~ubuntu1.18.04.1) ...
     default: Selecting previously unselected package python3-crypto.
-    default: Preparing to unpack .../59-python3-crypto_2.6.1-8ubuntu2_amd64.deb ...
+    default: Preparing to unpack .../60-python3-crypto_2.6.1-8ubuntu2_amd64.deb ...
     default: Unpacking python3-crypto (2.6.1-8ubuntu2) ...
     default: Selecting previously unselected package python3.6-dev.
-    default: Preparing to unpack .../60-python3.6-dev_3.6.9-1~18.04_amd64.deb ...
+    default: Preparing to unpack .../61-python3.6-dev_3.6.9-1~18.04_amd64.deb ...
     default: Unpacking python3.6-dev (3.6.9-1~18.04) ...
     default: Selecting previously unselected package python3-dev.
-    default: Preparing to unpack .../61-python3-dev_3.6.7-1~18.04_amd64.deb ...
+    default: Preparing to unpack .../62-python3-dev_3.6.7-1~18.04_amd64.deb ...
     default: Unpacking python3-dev (3.6.7-1~18.04) ...
     default: Selecting previously unselected package python3-secretstorage.
-    default: Preparing to unpack .../62-python3-secretstorage_2.3.1-2_all.deb ...
+    default: Preparing to unpack .../63-python3-secretstorage_2.3.1-2_all.deb ...
     default: Unpacking python3-secretstorage (2.3.1-2) ...
     default: Selecting previously unselected package python3-keyring.
-    default: Preparing to unpack .../63-python3-keyring_10.6.0-1_all.deb ...
+    default: Preparing to unpack .../64-python3-keyring_10.6.0-1_all.deb ...
     default: Unpacking python3-keyring (10.6.0-1) ...
     default: Selecting previously unselected package python3-keyrings.alt.
-    default: Preparing to unpack .../64-python3-keyrings.alt_3.0-1_all.deb ...
+    default: Preparing to unpack .../65-python3-keyrings.alt_3.0-1_all.deb ...
     default: Unpacking python3-keyrings.alt (3.0-1) ...
     default: Selecting previously unselected package python3-pip.
-    default: Preparing to unpack .../65-python3-pip_9.0.1-2.3~ubuntu1.18.04.1_all.deb ...
+    default: Preparing to unpack .../66-python3-pip_9.0.1-2.3~ubuntu1.18.04.1_all.deb ...
     default: Unpacking python3-pip (9.0.1-2.3~ubuntu1.18.04.1) ...
     default: Selecting previously unselected package python3-setuptools.
-    default: Preparing to unpack .../66-python3-setuptools_39.0.1-2_all.deb ...
+    default: Preparing to unpack .../67-python3-setuptools_39.0.1-2_all.deb ...
     default: Unpacking python3-setuptools (39.0.1-2) ...
     default: Selecting previously unselected package python3-wheel.
-    default: Preparing to unpack .../67-python3-wheel_0.30.0-0.2_all.deb ...
+    default: Preparing to unpack .../68-python3-wheel_0.30.0-0.2_all.deb ...
     default: Unpacking python3-wheel (0.30.0-0.2) ...
     default: Selecting previously unselected package python3-xdg.
-    default: Preparing to unpack .../68-python3-xdg_0.25-4ubuntu1_all.deb ...
+    default: Preparing to unpack .../69-python3-xdg_0.25-4ubuntu1_all.deb ...
     default: Unpacking python3-xdg (0.25-4ubuntu1) ...
     default: Selecting previously unselected package sqlite.
-    default: Preparing to unpack .../69-sqlite_2.8.17-14fakesync1_amd64.deb ...
+    default: Preparing to unpack .../70-sqlite_2.8.17-14fakesync1_amd64.deb ...
     default: Unpacking sqlite (2.8.17-14fakesync1) ...
     default: Selecting previously unselected package sqlite3.
-    default: Preparing to unpack .../70-sqlite3_3.22.0-1ubuntu0.2_amd64.deb ...
+    default: Preparing to unpack .../71-sqlite3_3.22.0-1ubuntu0.2_amd64.deb ...
     default: Unpacking sqlite3 (3.22.0-1ubuntu0.2) ...
     default: Setting up libquadmath0:amd64 (8.3.0-6ubuntu1~18.04.1) ...
     default: Setting up bats (0.4.0-1.1) ...
@@ -430,6 +433,7 @@ Bringing machine 'default' up with 'libvirt' provider...
     default: Setting up mc-data (3:4.8.19-1) ...
     default: Setting up python3-keyrings.alt (3.0-1) ...
     default: Setting up linux-libc-dev:amd64 (4.15.0-74.84) ...
+    default: Setting up libxml2-utils (2.9.4+dfsg1-6.1ubuntu1.2) ...
     default: Setting up libdpkg-perl (1.19.0.5ubuntu2.3) ...
     default: Setting up python3-wheel (0.30.0-0.2) ...
     default: Setting up liblsan0:amd64 (8.3.0-6ubuntu1~18.04.1) ...
@@ -462,7 +466,8 @@ Bringing machine 'default' up with 'libvirt' provider...
     default: Setting up libubsan0:amd64 (7.4.0-1ubuntu1~18.04.1) ...
     default: Setting up python3.6-minimal (3.6.9-1~18.04) ...
     default: Setting up fakeroot (1.22-2ubuntu1) ...
-    default: update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+    default: update-alternatives: 
+    default: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
     default: Setting up sqlite3 (3.22.0-1ubuntu0.2) ...
     default: Setting up libgcc-7-dev:amd64 (7.4.0-1ubuntu1~18.04.1) ...
     default: Setting up cpp-7 (7.4.0-1ubuntu1~18.04.1) ...
@@ -507,6 +512,7 @@ Bringing machine 'default' up with 'libvirt' provider...
     default: 3.0.2
     default: sending incremental file list
     default: views.py
+    default: 
     default: sent 281 bytes  received 35 bytes  632.00 bytes/sec
     default: total size is 170  speedup is 0.54
     default: sending incremental file list
@@ -520,3 +526,33 @@ Bringing machine 'default' up with 'libvirt' provider...
     default: 
     default: sent 1,755 bytes  received 122 bytes  3,754.00 bytes/sec
     default: total size is 1,295  speedup is 0.69
+    default: Migrations for 'app':
+    default:   app/migrations/0001_initial.py
+    default:     - Create model Product
+    default: Operations to perform:
+    default:   Apply all migrations: admin, app, auth, contenttypes, sessions
+    default: Running migrations:
+    default:   Applying contenttypes.0001_initial... OK
+    default:   Applying auth.0001_initial... OK
+    default:   Applying admin.0001_initial... OK
+    default:   Applying admin.0002_logentry_remove_auto_add... OK
+    default:   Applying admin.0003_logentry_add_action_flag_choices... OK
+    default:   Applying app.0001_initial... OK
+    default:   Applying contenttypes.0002_remove_content_type_name... OK
+    default:   Applying auth.0002_alter_permission_name_max_length... OK
+    default:   Applying auth.0003_alter_user_email_max_length... OK
+    default:   Applying auth.0004_alter_user_username_opts... OK
+    default:   Applying auth.0005_alter_user_last_login_null... OK
+    default:   Applying auth.0006_require_contenttypes_0002... OK
+    default:   Applying auth.0007_alter_validators_add_error_messages... OK
+    default:   Applying auth.0008_alter_user_username_max_length... OK
+    default:   Applying auth.0009_alter_user_last_name_max_length... OK
+    default:   Applying auth.0010_alter_group_name_max_length... OK
+    default:   Applying auth.0011_update_proxy_permissions... OK
+    default:   Applying sessions.0001_initial... OK
+    default: Installed 1 object(s) from 1 fixture(s)
+[1G   Html check value[K[163G1/1[2G[1G ✓ Html check value[K
+[0m
+1 test, 0 failures
+Connection to 192.168.121.180 closed.
+STOP:  Wed Jan 8 10:01:38 GMT 2020

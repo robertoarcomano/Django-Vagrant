@@ -5,6 +5,5 @@ vagrant destroy -f
 # 1. Start Vagrant VMs
 vagrant up --provider=libvirt
 
-
-# 3. Launch tests
-# vagrant ssh -c "sudo /vagrant/testDjango.sh"
+# 2. Launch tests
+vagrant ssh -c "sudo /vagrant/testDjango.sh"
