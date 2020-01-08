@@ -1,0 +1,21 @@
+How to create a new API service
+
+1. Create app
+	./manage.py  startapp <APPNAME>
+2. Add app on global settings
+	sed -ri "s/'django.contrib.staticfiles'/'django.contrib.staticfiles',\n    'app'/g" settings.py
+
+3. Import new app urls from website
+	sed -ri "s/urlpatterns = \[/urlpatterns = \[\n    path('app\/', include('app.urls')),/g" urls.py
+	sed -ri "s/from django.urls import path/from django.urls import path\nfrom django.conf.urls import include/g" urls.py
+
+4. 	Create new app details:
+	4.1. models
+	4.2. urls
+	4.3. views
+	4.4. specify app.json
+
+5. 	Execute data migration
+	5.1. ./manage.py makemigrations app
+	5.2. ./manage.py migrate
+	5.3. ./manage.py loaddata app/app.json
